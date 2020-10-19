@@ -1,0 +1,16 @@
+.footer{
+    margin-top: 110px;
+    margin-left:600px;
+    font-size:22px;
+    padding-bottom: 100px;
+    color:white
+  
+}
+.footer_middle{
+    margin-left: 90px;
+}
+@media all and (max-width:1200px){
+    .footer{
+        margin-left:57px;
+    }
+}

@@ -1,0 +1,45 @@
+.about_image{
+    width:100%;
+}
+.about{
+    color: white;
+}
+.about h1{
+    font-size: 47px;
+    margin-top: 40px;
+    margin-left: 654px;
+}
+.about p{
+    font-size: 20px;
+    margin-top: 36px;
+    margin-left: 495px;
+}
+.about_left{
+    display: flex;
+    flex-direction: row;
+    margin-top: 62px;
+}
+.about_left_left{
+    margin-right: 50px;
+    margin-left: 70px;
+}
+.about_left_right{
+    margin-right: 50px;
+    margin-left: 70px;
+}
+@media all and (max-width:1200px){
+    .about h1{
+        margin-left: 202px;
+        font-size: 30px;
+    }
+    .about_left{
+        display: flex;
+        flex-direction: column;
+    }
+    .about_left_left{
+        margin-top: -368px;
+        margin-right: 50px;
+        margin-left: 70px;
+        margin-bottom: 52px;
+    }
+}
